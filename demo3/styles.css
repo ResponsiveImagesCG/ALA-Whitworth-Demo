@@ -1,0 +1,68 @@
+/* Module Layouts */
+.col-a,
+.col-b {
+	clear: both;
+	float: left;
+}
+@media( min-width: 60em ) {
+	.col-a,
+	.col-b {
+		clear: none;
+	}
+	.col-a {
+		width: 70%;
+		float: left;
+	}
+	.col-b {
+		width: 27%;
+		float: right;
+	}
+}
+
+/* Module Layout: Phase 1 */
+.mod img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 250px;
+}
+
+@media( min-width: 25em ) and ( max-width: 49.9375em ) {
+	.mod img {
+		float: left;
+		width: 30%;
+		max-width: 9999px;
+	}
+	.mod .mod-header,
+	.mod .mod-desc {
+		float: right;
+		width: 68%;
+		padding-left: 2%;
+	}
+}
+
+@media( min-width: 50em ) {
+	.three-col .mod {
+		display: inline-block;
+		float: left;
+		width: 30%;
+		margin: 0 5% 2em 0;
+	}
+	.three-col .mod:last-of-type {
+		margin-right: 0;
+		float: right;
+	}
+}
+
+/* Module Layout: Phase 2 */
+@media( min-width: 40em ) and ( max-width: 60em ) {
+	.featured .mod img {
+		float: left;
+		width: 30%;
+	}
+	.featured .mod .mod-header,
+	.featured .mod .mod-desc {
+		float: right;
+		width: 68%;
+	}
+}
