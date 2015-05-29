@@ -22,8 +22,7 @@ Modules now have a second breakpoint and set of styles scoped to the “featured
 **[Demo 6](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo6/index.html)**<br>
 Module layouts using a single set of “element query” styles.
 
-**[Demo 7](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo7/index.html)**
-
+**[Demo 7](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo7/index.html)**<br>
 “Add to cart” button and “Only 3 left” text are aligned right based on available space using a single set of “element query” styles.
 
 ## Quick Setup
