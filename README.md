@@ -5,24 +5,31 @@
 ## Demos
 
 *[Demo 1](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo1/index.html)*
+
 A single breakpoint where the layout changes from linear to a primary content area and a sidebar.
 
 *[Demo 2](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo2/index.html)*
+
 Module styles, using a single breakpoint not scoped to any specific contexts. The “featured” module is broken at meduium viewport widths.
 
 *[Demo 3](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo3/index.html)*
+
 Modules now have a second breakpoint and set of styles scoped to the “featured” container context.
 
 *[Demo 4](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo4/index.html)*
+
 “Add to cart” button and “Only 3 left” text are aligned right regardless of available space.
 
 *[Demo 5](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo5/index.html)*
+
 “Add to cart” button and “Only 3 left” text are aligned right based on modules’ available space, using several media queries and duplicated styles.
 
 *[Demo 6](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo6/index.html)*
+
 Module layouts using a single set of “element query” styles.
 
 *[Demo 7](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo7/index.html)*
+
 “Add to cart” button and “Only 3 left” text are aligned right based on available space using a single set of “element query” styles.
 
 ## Quick Setup
