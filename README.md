@@ -4,31 +4,25 @@
 
 ## Demos
 
-*[Demo 1](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo1/index.html)*
-
+**[Demo 1](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo1/index.html)**<br>
 A single breakpoint where the layout changes from linear to a primary content area and a sidebar.
 
-*[Demo 2](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo2/index.html)*
-
+**[Demo 2](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo2/index.html)**<br>
 Module styles, using a single breakpoint not scoped to any specific contexts. The “featured” module is broken at meduium viewport widths.
 
-*[Demo 3](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo3/index.html)*
-
+**[Demo 3](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo3/index.html)**<br>
 Modules now have a second breakpoint and set of styles scoped to the “featured” container context.
 
-*[Demo 4](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo4/index.html)*
-
+**[Demo 4](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo4/index.html)**<br>
 “Add to cart” button and “Only 3 left” text are aligned right regardless of available space.
 
-*[Demo 5](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo5/index.html)*
-
+**[Demo 5](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo5/index.html)**<br>
 “Add to cart” button and “Only 3 left” text are aligned right based on modules’ available space, using several media queries and duplicated styles.
 
-*[Demo 6](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo6/index.html)*
-
+**[Demo 6](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo6/index.html)**<br>
 Module layouts using a single set of “element query” styles.
 
-*[Demo 7](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo7/index.html)*
+**[Demo 7](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo7/index.html)**
 
 “Add to cart” button and “Only 3 left” text are aligned right based on available space using a single set of “element query” styles.
 
