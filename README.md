@@ -2,6 +2,8 @@
 
 [These demos](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/) accompany [Container Queries: Once More Unto the Breach](http://alistapart.com/article/container-queries), illustrating the how media queries are flawed in terms of modular design, and the proposed function of a syntax that allows breakpoints based on element size rather than viewport size.
 
+This repo uses a modified version of [Rob Brackett’s](https://github.com/Mr0grog) [element-query](https://github.com/Mr0grog/element-query) script.
+
 ## Demos
 
 **[Demo 1](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo1/index.html)**<br>
