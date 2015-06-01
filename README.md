@@ -1,6 +1,6 @@
 # Whitworth Demos
 
-[These demos](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/) accompany [Element Queries: Once More Unto the Breach](http://alistapart.com/article/element-queries), illustrating the how media queries are flawed in terms of modular design, and the proposed function of an “element query” syntax.
+[These demos](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/) accompany [Container Queries: Once More Unto the Breach](http://alistapart.com/article/container-queries), illustrating the how media queries are flawed in terms of modular design, and the proposed function of a syntax that allows breakpoints based on element size rather than viewport size.
 
 ## Demos
 
@@ -20,14 +20,14 @@ Modules now have a second breakpoint and set of styles scoped to the “featured
 “Add to cart” button and “Only 3 left” text are aligned right based on modules’ available space, using several media queries and duplicated styles.
 
 **[Demo 6](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo6/index.html)**<br>
-Module layouts using a single set of “element query” styles.
+Module layouts using a breakpoint based on the element size rather than viewport size.
 
 **[Demo 7](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo7/index.html)**<br>
-“Add to cart” button and “Only 3 left” text are aligned right based on available space using a single set of “element query” styles.
+“Add to cart” button and “Only 3 left” text are aligned right based on available space using a breakpoint based on the element size rather than viewport size.
 
 ## Quick Setup
 
-The demos illustrating a theoretical element query syntax (Demo 6 and Demo 7) can only be viewed via HTTP—you can’t just open the index files in your browser, if you’ve cloned the repo and want to tinker with these pages locally. You have two options for running this locally without wading through a bunch of Apache nonsense:
+The demos illustrating a theoretical CSS syntax (Demo 6 and Demo 7) can only be viewed via HTTP—you can’t just open the index files in your browser, if you’ve cloned the repo and want to tinker with these pages locally. You have two options for running this locally without wading through a bunch of Apache nonsense:
 
 ### PHP Server
 OSX ships with PHP, which makes it _very_ easy to spin up a quick server. Naviate to the repo’s root directory in your terminal and enter the following:
