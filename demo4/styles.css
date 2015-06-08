@@ -67,17 +67,55 @@
 	}
 }
 
-/* “Buy” Button Layout */
-.mod-cost {
-	float: left;
+/* Medium viewport three-across breakpoint: */
+@media( min-width: 40em ) and ( max-width: 50em ) {
+	.mod-cost {
+		float: left;
+	}
+	.mod-buy {
+		float: right;
+	}
+	.mod-buy .buy-remaining {
+		text-align: right;
+	}
 }
-.mod-buy {
-	float: right;
-}
-.mod-buy .buy-remaining {
-	text-align: right;
+/* Wide viewport three-across breakpoint, inc. sidebar treatment: */
+@media( min-width: 105em ) {
+	.mod-cost {
+		float: left;
+	}
+	.mod-buy {
+		float: right;
+	}
+	.mod-buy .buy-remaining {
+		text-align: right;
+	}
 }
 
+/* Featured module at medium widths: */
+@media( min-width: 40em ) and ( max-width: 60em ) {
+	.featured .mod-cost {
+		float: left;
+	}
+	.featured  .mod-buy {
+		float: right;
+	}
+	.featured .mod-buy .buy-remaining {
+		text-align: right;
+	}
+}
+/* Three-across layout on wide viewports: */
+@media( min-width: 75em) {
+	.featured .mod-cost {
+		float: left;
+	}
+	.featured  .mod-buy {
+		float: right;
+	}
+	.featured .mod-buy .buy-remaining {
+		text-align: right;
+	}
+}
 
 /* Theme */
 img {

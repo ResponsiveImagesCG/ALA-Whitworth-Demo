@@ -39,6 +39,7 @@
 	width: 100%;
 	max-width: 250px;
 }
+
 .mod:media( min-width: 425px ) img {
 	float: left;
 	width: 30%;
@@ -50,4 +51,16 @@
 	width: 68%;
 	padding-left: 2%;
 }
+
+/* “Add to Cart” positioning */
+.mod:media( min-width: 320px ) .mod-cost {
+	float: left;
+}
+.mod:media( min-width: 320px ) .mod-buy {
+	float: right;
+}
+.mod:media( min-width: 320px ) .buy-remaining {
+	text-align: right;
+}
+
 
